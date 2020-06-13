@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive exercise</title>
+   <!-- no pertenece a este ejercicio
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    -->
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .row::after
+    {
+     content: "";
+     clear: both;
+     display: table;
+    }
+    [class*="col-"]
+    {
+        float: left;
+        padding: 15px;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    html
+    {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    body
+    {
+        margin:0;
+    }
+    .header
+    {
+        padding: 15px;
+        background-color: #9933cc;
+        color: #ffffff;
+        text-align: center;
+
+    }
+    .menu
+    {
+        width: 25%;
+        float: left;
+        padding: 15px;
+    }
+    .main
+    {
+        width: 75%;
+        float: left;
+        padding: 15px;
+    }
+    .menu ul
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .menu li
+    {
+     padding: 8px;
+     margin-bottom: 7px;
+     background-color: #33b5e5;
+     color: #ffffff;
+     box-shadow: 0 1px 3px rgba(0, 0, 0,0.12), 0 1px 2px rgba(0, 0, 0,0.24);
+    }
+    .menu li:hover
+    {
+        background-color: #0099cc;
+    }
+    .footer
+    {
+        border: 1px solid springgreen;
+        text-align: center;
+        padding: 10px;
+        background-color: teal;
+    }
+</style>
+</head>
+<body>
+   <div class="header">
+       <h1>Godziszow</h1>
+   </div>
+   <div class="row">
+       <div class="col-3 menu">
+       <ul>
+           <li>The Flight</li>
+           <li>The City</li>
+           <li>The Island</li>
+           <li>The Food</li>
+       </ul>
+   </div>
+   <div class="col-6">
+       <h1>The City</h1>
+       <p>Godziszow is the village in the Poland center of Europe.</p>
+       <p>resize the browser window to see how the content respond to the resizing.</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non assumenda at ex blanditiis nesciunt, incidunt nobis doloribus beatae eos aliquam minus repudiandae accusantium deleniti architecto vitae voluptas vero, numquam totam.</p>
+   </div>
+   <div class="col-3">
+       <h3>The village</h3>
+       <p>Janow Lubelski to wioska ktora jest polozona niedaleko Godziszowa. Nie ma nic wiecej do powiedzenia</p>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero inventore est nesciunt voluptatem, rerum totam reprehenderit explicabo mollitia? Omnis debitis possimus veritatis. Facere rerum dignissimos itaque non commodi repellendus laborum sint reiciendis consequatur iste ad eius, fugit fuga. Quos, impedit rem inventore deleniti quibusdam architecto aspernatur adipisci et in exercitationem.</p>
+   </div>
+</div>
+<div class="footer">
+    <p>Zawsze z wami daleko jednak blisko VidCo2020 &copy;</p>
+</div>
+
+    <!-- no pertenece a este ejercicio 
+        <script>
+        document.getElementById("demo").innerHTML = Math.PI;
+        document.getElementById("demo").innerHTML = Math.round(4.2);
+        document.getElementById("demo").innerHTML =Math.pow(8,3);
+        document.getElementById("demo").innerHTML = Math.sqrt(64);
+        document.getElementById("demo").innerHTML = Math.round(4.6);
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    --> 
+</body>
+</html>
